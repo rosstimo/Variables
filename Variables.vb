@@ -9,7 +9,7 @@ Module Variables
         Dim mySecondNumber As Integer
         Dim aLittleString As String
         Dim someSortOfTest As Boolean
-
+        Dim result As Integer
 
         myFirstNumber = 42
 
@@ -32,6 +32,17 @@ Module Variables
         'x = 7
         'Console.WriteLine(x)
         'Console.ReadLine()
+
+        'do math
+        myFirstNumber = 42
+        mySecondNumber = 8
+        Console.WriteLine(myFirstNumber + mySecondNumber)
+        Console.ReadLine()
+
+
+        result = myFirstNumber + mySecondNumber
+        Console.WriteLine(result)
+        Console.ReadLine()
 
     End Sub
 
